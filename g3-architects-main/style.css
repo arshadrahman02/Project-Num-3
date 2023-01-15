@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ______________________UTILITY CLASSES__________________ */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Work+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+/* ____________________________HEADER CSS____________________________ */
+
+
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(245, 155, 14, 0.14);
+}
+
+.header-title {
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.header-img {
+    position: absolute;
+    width: 900px;
+    height: 450px;
+    left: 130px;
+    top: 400px;
+
+
+
+}
+
+/* ____________________________________NAVIGATION CSS___________________________________ */
+
+
+
+nav ul {
+    display: flex;
+    position: absolute;
+    top: 35px;
+    right: 230px;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.nav-banner {
+    position: absolute;
+    left: 460px;
+    top: 140px;
+    font-weight: 700;
+    font-size: 40px;
+
+
+
+}
+
+.nav-banner1 {
+    position: absolute;
+    left: 380px;
+    top: 195px;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.nav-banner2 {
+    position: absolute;
+    left: 335px;
+    top: 260px;
+    font-weight: 400;
+    font-size: 10px;
+    width: 500px;
+}
+
+.nav-banner3 {
+    position: absolute;
+    left: 410px;
+    top: 285px;
+    font-weight: 400;
+    font-size: 10px;
+    width: 500px;
+}
+
+.btn {
+    position: absolute;
+    left: 525px;
+    top: 320px;
+    font-weight: 550;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: #FF900E;
+    border: none;
+    height: 30px;
+    width: 80px;
+}
+
+
+/* ____________________________________MAIN SECTION CSS 1________________________________________ */
+.section-head {
+    position: absolute;
+    top: 950px;
+    left: 180px;
+
+
+
+}
+
+.img-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30%;
+    height: 30%;
+    gap: 10px;
+
+}
+
+
+
+
+.section-img {
+    background: #FFFFFF;
+
+    border-radius: 5px;
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.short-1 {
+    position: absolute;
+    left: 480px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #727272;
+    top: 100px;
+    width: 300px;
+}
+
+.short-2 {
+    position: absolute;
+    left: 585px;
+    font-weight: 650;
+    font-size: 24px;
+    color: black;
+    top: 100px;
+    width: 300px;
+
+
+}
+
+.short-3 {
+    position: absolute;
+    left: 480px;
+    font-weight: 650;
+    font-size: 26px;
+    color: #FF900E;
+    top: 135px;
+
+}
+
+.short-4 {
+    position: absolute;
+    font-size: 15px;
+    width: 300px;
+    font-weight: 500;
+    color: #727272;
+    left: 480px;
+    top: 200px;
+}
+
+/* ____________2nd Section___________ */
+
+
+
+
+
+
+.feature-img{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 1450px;
+    left: 550px;
+    border-radius: 3px;
+}
+
+#rectangle {
+    width: px;
+    height: 70px;
+    background: #FF900E;;
+  }
+    
+
+.feature-head1{
+    position: absolute;
+    top: 1450px;
+    left: 200px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.feature-para1{
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #727272;
+    width: 300px;
+}
+
+.feature-head2{
+    position: absolute;
+    top: 1575px;
+    left: 200px;
+    font-weight: 700;
+}
+
+.feature-para2{
+    position: absolute;
+    top: 1600px;
+    left: 200px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #727272;
+    width: 300px;
+}
+
+.feature-head3{
+    position: absolute;
+    top: 1667px;
+    left: 200px;
+    font-weight: 700;
+}
+.feature-para3{
+    position: absolute;
+    top: 1690px;
+    left: 200px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #727272;
+    width: 300px;
+}
+
+
+
+.feature-head4{
+    position: absolute;
+    top: 1760px;
+    left: 200px;
+    font-weight: 700;
+}
+
+
+.feature-para4{
+    position: absolute;
+    top: 1790px;
+    left: 200px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #727272;
+    width: 300px;
+}
+
+.feature-head5{
+    position: absolute;
+    top: 1850px;
+    left: 200px;
+    font-weight: 700;
+}
+.feature-para5{
+    position: absolute;
+    top: 1880px;
+    left: 200px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #727272;
+    width: 300px;
+}
+
+.btn2{
+    position: absolute;
+    left: 505px;
+    top: 1900px;
+    font-weight: 550;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    background-color:#FF900E; 
+    border: none;
+    text-align: center;
+   ;
+    
+}
+.experience{
+   font-size: 15px;
+}
+/* _____________ SECTION NUM-3_____-______ */
+.failure{
+    position: absolute;
+    top: 2000px;
+    width: 300px;
+    left: 200px;
+    
+}
+.section-head-failure{
+    position: absolute;
+    top: 2100px;
+    left: 600px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.failure-para{
+    position: absolute;
+    top: 2180px;
+    left: 600px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #727272;
+    width: 300px;
+
+}
+/* _______________SECTION NUM-4__________ */
+.some-facts{
+    position: absolute;
+    top: 2450px;
+    left: 270px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.some-facts-para{
+    position: absolute;
+    top: 2490px;
+    left: 270px;
+    font-size: 12px;
+    color: #727272;
+    width: 300px;
+}
+
+
+.box1{
+    height: 100px;
+    width: 80px;
+    border: 1px solid #FF900E;
+    position: absolute;
+    top: 2550px;
+    left: 300px;
+    border-radius: 5px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.box1:hover{
+    transform: rotate(360deg);
+    background-color: salmon;
+    color: black;
+}
+.box-img1{
+
+    position: absolute;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+}
+.box-h1{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.box-p1{
+    position: absolute;
+    top: 80px;
+    left: 6px;
+    font-size: 8px;
+    width: 100px;
+}
+.box2{
+    height: 100px;
+    width: 80px;
+    border: 1px solid #FF900E;
+    position: absolute;
+    top: 2550px;
+    left: 500px;
+    border-radius: 5px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.box2:hover{
+    transform: rotate(360deg);
+    background-color: salmon;
+    color: black;
+}
+.box-img2{
+
+    position: absolute;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+}
+.box-h2{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.box-p2{
+    position: absolute;
+    top: 80px;
+    left: 6px;
+    font-size: 8px;
+    width: 100px;
+}
+.box3{
+    height: 100px;
+    width: 80px;
+    border: 1px solid #FF900E;
+    position: absolute;
+    top: 2550px;
+    left: 700px;
+    border-radius: 5px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.box3:hover{
+    transform: rotate(360deg);
+    background-color: salmon;
+    
+}
+.box-img3{
+
+    position: absolute;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+}
+.box-h3{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.box-p3{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 8px;
+    width: 100px;
+}
+.box4{
+    height: 100px;
+    width: 80px;
+    border: 1px solid #FF900E;
+    position: absolute;
+    top: 2550px;
+    left: 900px;
+    border-radius: 5px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.box4:hover{
+    transform: rotate(360deg);
+    background-color: salmon;
+    color: black;
+}
+.box-img4{
+
+    position: absolute;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+}
+.box-h4{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+.box-p4{
+    position: absolute;
+    top: 80px;
+    left: 6px;
+    font-size: 8px;
+    width: 100px;
+}
+
+/* ____________sponsers___________ */
+
+.sponser-title{
+    position: absolute;
+    left: 570px;
+    top: 2700px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.sponser-para{
+    position: absolute;
+    left: 500px;
+    top: 2740px;
+    font-size: 12px;
+    width: 300px;
+}
+/* _________________LAST SECTION______________ */
+
+.last-section-img1{
+    position: absolute;
+    top: 2800px;
+    left: 250px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.last-section-img2{
+    position: absolute;
+    top: 2805px;
+    left: 450px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.last-section-img3{
+    position: absolute;
+    top: 2800px;
+    left: 650px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.last-section-img4{
+
+    position: absolute;
+    top: 2800px;
+    left: 850px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.last-section-img5{
+
+    position: absolute;
+    top: 2800px;
+    left: 1050px;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* _______________FOOTER_______________ */
+
+
+.foot{
+ background:  rgba(245, 155, 14, 0.14);
+ position: absolute;
+ top: 2900px; 
+ left: 250px;
+ height: 70px;
+ width: 800px;
+ 
+} 
+.copy{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
